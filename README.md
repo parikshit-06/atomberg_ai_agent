@@ -95,5 +95,3 @@ MIT License
 * [HuggingFace Transformers](https://huggingface.co/)
 * [SerpAPI](https://serpapi.com/)
 * [YouTube Data API](https://developers.google.com/youtube/v3)
-
-```
