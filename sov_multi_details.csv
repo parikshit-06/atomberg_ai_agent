@@ -1,0 +1,50 @@
+platform,keyword,brand_counts,sentiment_by_brand,engagement
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 1, 'Usha': 0, 'Bajaj': 0}","{'Orient': {'label': 'Negative', 'score': 0.9515652060508728}}",{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+Google,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},{}
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.8929051160812378}}","{'viewCount': '1268441', 'likeCount': '4732', 'favoriteCount': '0', 'commentCount': '23'}"
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9458295702934265}}","{'viewCount': '438465', 'likeCount': '2327', 'favoriteCount': '0', 'commentCount': '33'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '2464545', 'likeCount': '8903', 'favoriteCount': '0', 'commentCount': '15'}"
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Positive', 'score': 0.9986134767532349}}","{'viewCount': '283389', 'likeCount': '2048', 'favoriteCount': '0', 'commentCount': '32'}"
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Positive', 'score': 0.8044769763946533}}","{'viewCount': '232116', 'likeCount': '1915', 'favoriteCount': '0', 'commentCount': '12'}"
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9707923531532288}}","{'viewCount': '3172044', 'likeCount': '30663', 'favoriteCount': '0', 'commentCount': '379'}"
+YouTube,smart fan,"{'Atomberg': 5, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Positive', 'score': 0.9967612624168396}}","{'viewCount': '327358', 'likeCount': '1774', 'favoriteCount': '0', 'commentCount': '87'}"
+YouTube,smart fan,"{'Atomberg': 7, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9977428913116455}}","{'viewCount': '296106', 'likeCount': '1005', 'favoriteCount': '0', 'commentCount': '7'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '582', 'likeCount': '3', 'favoriteCount': '0', 'commentCount': '0'}"
+YouTube,smart fan,"{'Atomberg': 2, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9830684065818787}}","{'viewCount': '326234', 'likeCount': '2020', 'favoriteCount': '0', 'commentCount': '83'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '36059', 'likeCount': '195', 'favoriteCount': '0', 'commentCount': '42'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '178812', 'likeCount': '780', 'favoriteCount': '0', 'commentCount': '22'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '523983', 'likeCount': '4887', 'favoriteCount': '0', 'commentCount': '62'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '454550', 'likeCount': '6980', 'favoriteCount': '0', 'commentCount': '134'}"
+YouTube,smart fan,"{'Atomberg': 2, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9809139370918274}}","{'viewCount': '939791', 'likeCount': '4591', 'favoriteCount': '0', 'commentCount': '28'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '171920', 'likeCount': '2317', 'favoriteCount': '0', 'commentCount': '47'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '121930', 'likeCount': '4071', 'favoriteCount': '0', 'commentCount': '52'}"
+YouTube,smart fan,"{'Atomberg': 4, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.9634962677955627}}","{'viewCount': '213503', 'likeCount': '1361', 'favoriteCount': '0', 'commentCount': '97'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '1724684', 'likeCount': '7184', 'favoriteCount': '0', 'commentCount': '101'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '88548', 'favoriteCount': '0', 'commentCount': '11'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '3347', 'likeCount': '18', 'favoriteCount': '0', 'commentCount': '0'}"
+YouTube,smart fan,"{'Atomberg': 2, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Positive', 'score': 0.9831727743148804}}","{'viewCount': '544812', 'favoriteCount': '0', 'commentCount': '12'}"
+YouTube,smart fan,"{'Atomberg': 3, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}","{'Atomberg': {'label': 'Negative', 'score': 0.806964099407196}}","{'viewCount': '19512', 'likeCount': '130', 'favoriteCount': '0', 'commentCount': '1'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '79841', 'likeCount': '267', 'favoriteCount': '0', 'commentCount': '38'}"
+YouTube,smart fan,"{'Atomberg': 0, 'Crompton': 0, 'Havells': 0, 'Orient': 0, 'Usha': 0, 'Bajaj': 0}",{},"{'viewCount': '2713264', 'likeCount': '23139', 'favoriteCount': '0', 'commentCount': '797'}"
