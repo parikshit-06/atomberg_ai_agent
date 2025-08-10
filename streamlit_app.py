@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import ast
 
 # ---- CONFIG ----
 st.set_page_config(page_title="Atomberg AI Agent", layout="wide")
 SUMMARY_FILE = "sov_multi_summary.csv"
 PLATFORM_FILE = "sov_multi_platform_summary.csv"
+DETAILS_FILE = "sov_multi_details.csv"
 
 # ---- SIDEBAR ----
 st.sidebar.title("Navigation")
@@ -40,10 +42,12 @@ elif page == "Findings & Recommendations":
     try:
         df_summary = pd.read_csv(SUMMARY_FILE)
         df_platform = pd.read_csv(PLATFORM_FILE)
+        df_details = pd.read_csv(DETAILS_FILE)
     except FileNotFoundError:
         st.error("CSV files not found. Please run the data collection script first.")
         st.stop()
 
+    # ---- Overall SOV ----
     st.subheader("📊 Overall Share of Voice")
     st.dataframe(df_summary)
 
@@ -54,6 +58,7 @@ elif page == "Findings & Recommendations":
     ).properties(width=600)
     st.altair_chart(chart_sov)
 
+    # ---- Platform-wise SOV ----
     st.subheader("📈 Platform-wise Share of Voice")
     st.dataframe(df_platform)
 
@@ -65,6 +70,32 @@ elif page == "Findings & Recommendations":
     ).properties(width=800)
     st.altair_chart(chart_platform)
 
+    # ---- Sentiment Breakdown ----
+    st.subheader("🗣 Sentiment Breakdown by Brand")
+
+    sentiment_counts = []
+    for _, row in df_details.iterrows():
+        brand_sentiments = ast.literal_eval(row['sentiment_by_brand'])
+        for brand, sent in brand_sentiments.items():
+            sentiment_counts.append({
+                "brand": brand,
+                "sentiment": sent["label"],
+                "count": 1
+            })
+
+    df_sentiment = pd.DataFrame(sentiment_counts)
+    if not df_sentiment.empty:
+        chart_sentiment = alt.Chart(df_sentiment.groupby(["brand", "sentiment"]).size().reset_index(name="count")).mark_bar().encode(
+            x=alt.X('brand:N', title="Brand"),
+            y=alt.Y('count:Q', title="Mentions"),
+            color='sentiment:N',
+            tooltip=['brand', 'sentiment', 'count']
+        ).properties(width=800)
+        st.altair_chart(chart_sentiment)
+    else:
+        st.info("No sentiment data available.")
+
+    # ---- Recommendations ----
     st.subheader("💡 Recommendations")
     st.markdown("""
     1. **Double down on SEO** — Atomberg already dominates Google Search, but there’s room for more product comparison content.
@@ -72,4 +103,3 @@ elif page == "Findings & Recommendations":
     3. **Leverage social listening** — Integrating Twitter data could give more real-time market feedback.
     4. **Monitor competitors** — Competitors’ online visibility is weak — an opportunity to own the narrative.
     """)
-
