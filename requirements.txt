@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+python-dotenv
+openai
+serpapi
+tqdm
+google-api-python-client
+snscrape
